@@ -1,12 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{Component} from 'react';
+import Campus from "./components/Campus";
 import './App.css';
 
-function App() {
-  return (
-    <>
-    </>
-  );
+
+class App extends Component{
+  render(){
+    return (
+    <div className="App"> 
+     <Campus/>
+    
+      
+       </div>
+
+    );
+
+  }
 }
+
 
 export default App;
